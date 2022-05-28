@@ -18,15 +18,15 @@ export const Profile = ({
     <ul className={s.stats}>
       <li className={s.stats__item}>
         <span className={s.label}>Followers</span>
-        <span class={s.quantty}>{followers}</span>
+        <span className={s.quantity}>{followers}</span>
       </li>
       <li className={s.stats__item}>
         <span className={s.label}>Views</span>
-        <span clasNames={s.quantty}>{views}</span>
+        <span className={s.quantity}>{views}</span>
       </li>
       <li className={s.stats__item}>
         <span className={s.label}>Likes</span>
-        <span className={s.quantty}>{likes}</span>
+        <span className={s.quantity}>{likes}</span>
       </li>
     </ul>
   </div>
