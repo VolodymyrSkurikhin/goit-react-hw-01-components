@@ -17,23 +17,23 @@
 .item:not(:last-child){
   margin-bottom: 10px;
 }
-.status{
+/* .status{
   width: 15px;
   height: 15px;
   border-radius: 50%;
-}
+} */
 .statusOn{
-  /* width: 15px;
+  width: 15px;
   height: 15px;
-  border-radius: 50%; */
-  composes: status;
+  border-radius: 50%;
+  /* composes: status; */
   background-color: green;
 }
 .statusOff{
-  /* width: 15px;
+  width: 15px;
   height: 15px;
-  border-radius: 50%; */
-  composes: status;
+  border-radius: 50%;
+  /* composes: status; */
   background-color: red;
 }
 .avatar{
