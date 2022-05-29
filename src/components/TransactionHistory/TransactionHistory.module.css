@@ -1,0 +1,22 @@
+.transactionHistory{
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.title{
+  background-color: aquamarine;
+  text-align: center
+}
+.row:nth-child(odd){
+  background-color: aliceblue;
+
+}
+.row:nth-child(even) {
+  background-color:lightslategray ;
+
+}
+.dataRow{
+  text-align: center;
+}
+.title, .row {
+line-height: 2;
+}
