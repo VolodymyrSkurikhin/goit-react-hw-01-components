@@ -7,7 +7,7 @@
 }
 .item{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
