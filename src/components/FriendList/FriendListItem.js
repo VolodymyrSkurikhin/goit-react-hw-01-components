@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 
 export const FriendListItem = ({ avatar, name, isOnline, id }) => (
   <>
-    <span
-      className={isOnline ? (s.status, s.statusOn) : (s.status, s.statusOff)}
-    ></span>
+    <span className={isOnline ? s.statusOn : s.statusOff}></span>
     <img className={s.avatar} src={avatar} alt="User avatar" width="48" />
     <p className={s.name}>{name}</p>
   </>
